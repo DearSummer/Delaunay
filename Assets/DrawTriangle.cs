@@ -81,7 +81,8 @@ namespace Delaunay
                     Vertex v = new Vertex {x = i, y = j};
                     if(IsInTriangle(tri,v))
                     {
-                        if (Random.value < 0.6f)
+//                        texture2D.SetPixel(v.x,v.y,GetColor(tri, texture2D));
+                        if (Random.value < 0.4f)
                         {
                             c += source.GetPixel(i, j);
                             colorCount++;

@@ -24,6 +24,7 @@ namespace Delaunay
         {
             List<Vertex> vertices = new List<Vertex>();
 
+          //  edgeVertices = Select(edgeVertices, texture2D);
             foreach (var v in edgeVertices)
             {
                 float p =( a * selectCount) / edgeVertices.Count;
